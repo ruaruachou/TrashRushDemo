@@ -180,6 +180,7 @@ public class LoadoutState : AState
         UnityEngine.SceneManagement.SceneManager.LoadScene(k_ShopSceneName, UnityEngine.SceneManagement.LoadSceneMode.Additive);
 	}
 
+
     public void ChangeCharacter(int dir)
     {
         PlayerData.instance.usedCharacter += dir;
@@ -352,6 +353,7 @@ public class LoadoutState : AState
             powerupSelect.gameObject.SetActive(false);
         }
 	}
+
 
 	public void ChangeConsumable(int dir)
 	{
